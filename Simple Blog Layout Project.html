@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        /* General Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        /* Blog Post Styling */
+        .blog-post {
+            background-color: #fff;
+            margin: 1.5em 0;
+            padding: 1.5em;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .blog-post:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-post h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+
+        .blog-post p {
+            font-size: 1em;
+            margin-bottom: 1em;
+            color: #555;
+        }
+
+        .blog-post a {
+            display: inline-block;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .blog-post a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Blog Title -->
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+
+    <!-- Blog Post 1 -->
+    <article class="blog-post">
+        <h2>Understanding HTML & CSS Basics</h2>
+        <p>This post explores the fundamentals of HTML and CSS, the building blocks of web development, and provides examples to help you get started.</p>
+        <a href="#">Read more</a>
+    </article>
+
+    <!-- Blog Post 2 -->
+    <article class="blog-post">
+        <h2>Introduction to JavaScript</h2>
+        <p>JavaScript is a powerful language used to add interactivity to web pages. This post covers the basics and helps you take the first steps in learning JavaScript.</p>
+        <a href="#">Read more</a>
+    </article>
+
+    <!-- Blog Post 3 -->
+    <article class="blog-post">
+        <h2>Getting Started with Web Development</h2>
+        <p>Web development can be overwhelming for beginners. In this post, we break down the essential tools and technologies to help you get started.</p>
+        <a href="#">Read more</a>
+    </article>
+</div>
+
+</body>
+</html>
